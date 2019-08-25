@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+
+  diabloweb:
+    build:
+      context: .
+    ports:
+      - 61483:80
